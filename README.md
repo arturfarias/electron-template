@@ -11,6 +11,8 @@ A basic Electron application needs just these files:
 - `static` - Directory for **images** and other project **static files**.
 - `tests` - Directory containing the **test files**.
 
+**CLI Commands.**
+- `npm run make page Name` - Generates a new directory within the pages directory, containing three files, html, css and js.
 
 ## To Use
 
