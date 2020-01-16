@@ -1,0 +1,24 @@
+{
+  "name": "electron-template",
+  "version": "1.0.0",
+  "description": "Simple template with directories and tests for electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha"
+  },
+  "repository": "https://github.com/arturfarias/electron-template",
+  "keywords": [
+    "Electron",
+    "template",
+    "directories",
+    "tests"
+  ],
+  "author": "Artur S. Farias",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "mocha": "^7.0.0",
+    "spectron": "^9.0.0"
+  }
+}
