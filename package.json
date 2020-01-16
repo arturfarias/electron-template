@@ -21,6 +21,7 @@
     "chalk": "^3.0.0",
     "commander": "^4.1.0",
     "electron": "^7.1.9",
+    "fs": "0.0.1-security",
     "mocha": "^7.0.0",
     "spectron": "^9.0.0"
   }
