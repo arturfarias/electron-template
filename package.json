@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "mocha"
+    "test": "mocha",
+    "make": "node .cli.js command"
   },
   "repository": "https://github.com/arturfarias/electron-template",
   "keywords": [
@@ -17,6 +18,8 @@
   "author": "Artur S. Farias",
   "license": "CC0-1.0",
   "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
     "electron": "^7.1.9",
     "mocha": "^7.0.0",
     "spectron": "^9.0.0"
