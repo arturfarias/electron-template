@@ -1,9 +1,8 @@
 const program = require('commander');
-const package = require('./package.json');
 const chalk = require('chalk');
 const fs = require('fs');
 
-program.version(package.version);
+program.version("1.0.0");
 
 commandList = ["page"];
 
@@ -25,7 +24,6 @@ function makeFile(path,name,content){
         return true
     });
 };
-
 
 
 function makePage(name){

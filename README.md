@@ -11,8 +11,12 @@ A basic Electron application needs just these files:
 - `static` - Directory for **images** and other project **static files**.
 - `tests` - Directory containing the **test files**.
 
-**CLI Commands.**
+**Commands.**
 - `npm run make page Name` - Generates a new directory within the pages directory, containing three files, html, css and js.
+- `npm start` - run electron application.
+- `npm test` - run electron application with mocha testing.
+- `npm run doc` - Generates documentation based on specific comments in the code (see Documentation example)
+
 
 ## To Use
 
@@ -29,6 +33,33 @@ npm install
 npm start
 ```
 
-## License
+## Documentation example
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+**The simplest documentation is just a description**
+```javascript
+/** This is a description of the foo function. */
+function foo() {
+}
+```
+
+**Use a JSDoc tag to describe your code**
+```javascript
+/**
+ * Represents a book.
+ * @constructor
+ */
+function Book(title, author) {
+}
+```
+
+**Adding more information with tags**
+```javascript
+/**
+ * Represents a book.
+ * @constructor
+ * @param {string} title - The title of the book.
+ * @param {string} author - The author of the book.
+ */
+function Book(title, author) {
+}
+```

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "test": "mocha",
-    "make": "node .cli.js command"
+    "make": "node .cli.js command",
+    "doc": "node_modules/jsdoc/jsdoc.js -c jsdoc.json"
   },
   "repository": "https://github.com/arturfarias/electron-template",
   "keywords": [
@@ -22,6 +23,7 @@
     "commander": "^4.1.0",
     "electron": "^7.1.9",
     "fs": "0.0.1-security",
+    "jsdoc": "^3.6.3",
     "mocha": "^7.0.0",
     "spectron": "^9.0.0"
   }
