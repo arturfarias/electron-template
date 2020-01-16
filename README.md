@@ -34,6 +34,7 @@ npm start
 ```
 
 ## Documentation example
+More information about the documentation in [JSDoc](https://jsdoc.app/)
 
 **The simplest documentation is just a description**
 ```javascript
