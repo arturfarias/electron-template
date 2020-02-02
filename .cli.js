@@ -37,7 +37,7 @@ function makePage(name){
         <link rel="stylesheet" href="../../static/photon/css/photon.css">
         <!--<script src="../../static/photon/template-app/app.js" charset="utf-8"></script> -->
         <link rel="stylesheet" href="./${name}.css">
-        <title>${name}</title>
+        <!-- <title>${name}</title> -->
       </head>
       <body>
     
