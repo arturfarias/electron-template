@@ -30,7 +30,7 @@
     "electron-packager": "^14.2.1",
     "fs": "0.0.1-security",
     "jsdoc": "^3.6.3",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mocha": "^7.0.0",
     "spectron": "^9.0.0"
   }
